@@ -1,0 +1,47 @@
+.albumInfo-card {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.albumInfo-card p {
+    margin-top: 7px !important;
+}
+
+.albumName-container {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 12s linear infinite;
+    padding-left: 100%;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.album-info {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-subdued, #6a6a6a);
+
+}
+
+.album-release {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-subdued, #6a6a6a);
+
+}

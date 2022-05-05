@@ -12,7 +12,7 @@ export default function Library() {
     useEffect(() => {
         apiClient.get("me/playlists").then(function (response) {
             setPlaylists(response.data.items);
-            console.log(response.data.items);
+            console.log(response.data)
         });
     }, []);
 
